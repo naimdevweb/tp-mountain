@@ -26,7 +26,7 @@
         <article class="flex justify-between items-center gap-10 lg:px-10">
           <div class="flex items-center py-4">
             <img class="w-[80%] md:w-[60%]" src="images/your_logo.png" alt="Logo" />
-            <h2 class="text-[33px] font-thin text-black">LOGO</h2>
+            <h2 class="text-[33px] font-thin text-black md:text-[70px]">LOGO</h2>
           </div>
           <img src="./images/icon-menu.svg" alt="Menu" class="w-[65px]" />
         </article>
@@ -37,17 +37,17 @@
             style="font-family: 'Merriweather', serif"
           >
             In the hall off the
-            <span class="text-[48px] font-extrabold">Mountain King</span>
+            <span class="text-[48px] font-extrabold"> <br>Mountain King</span>
           </p>
 
           <p
-            class="text-center text-[#d7d7d7] font-thin text-[28px] leading-[2] py-4  "
+            class="text-center text-[#d7d7d7] font-thin text-[28px] leading-[2] py-4 md:text-[20px] "
           >
             This is a simple hero unit, a simple jumborton-style component for
             calling extra attention to featured content or information
           </p>
 
-          <div class="flex flex-col items-center">
+          <div class="flex max-sm:flex-col items-center md:flex-auto md:justify-center md:mb-[70px] md:py-8">
            
             <a
               href="#"
@@ -58,7 +58,7 @@
         
             <a
               href="#"
-              class="bg-pink-600 text-white py-4 hover:bg-green-700 w-[120px] text-center mb-20"
+              class="bg-pink-600 text-white py-4 hover:bg-green-700 w-[120px] text-center"
             >
               Download
             </a>
@@ -130,14 +130,14 @@
           </p>
 
           <div
-            class="border border-white bg-transparent text-emerald-50 text-center my-5 text-[20px] gap-5 p-8 shadow w-[140px] mx-auto flex flex-col items-center"
+            class="border border-white bg-transparent text-emerald-50 text-center my-5 text-[20px] gap-5 p-8 shadow w-[140px] mx-auto flex flex-col items-center md:w-[350px]"
           >
             <p class="mb-3">Ultricies</p>
             <p class="text-[30px]">23,758</p>
           </div>
 
           <div
-            class="border border-white bg-transparent text-emerald-50 text-center my-8 text-[20px] gap-6 p-8 shadow w-[140px] mx-auto flex flex-col items-center"
+            class="border border-white bg-transparent text-emerald-50 text-center my-8 text-[20px] gap-6 p-8 shadow w-[140px] mx-auto flex flex-col items-center md:w-[350px]"
           >
             <p class="mb-3">Fermentum</p>
             <p class="text-[30px]">23,758</p>
@@ -213,28 +213,29 @@
 
       <!-- 5ème section -->
 
-      <section class="bg-[#DDDDDD] flex flex-col py-10 gap-3  md:grid grid-cols-3   md:gap-2 ">
+      <section class="bg-[#DDDDDD] flex flex-col py-10 gap-3  md:grid grid-cols-3 md:px-12   md:gap-2 ">
         
-        <img src="images/300.jpeg" alt="" class="" />
-        <img src="images/776.jpeg" alt="" class="" />
-        <img src="images/800.jpeg" alt="" class="" />
-        <img src="images/400.jpeg" alt="" class="" />
-        <img src="images/2476.jpeg" alt="" class="md:row-start-4"/>
-        <img src="images/439.jpeg" alt="" class=/>
-        <img src="images/140.jpeg" alt="" class="md:row-start-5" />
-
+        <img  src="images/300.jpeg" alt=""   class="md:w-full md:h-full md:object-cover"/>
+        <img src="images/776.jpeg" alt=""  class="md:w-full md:h-full md:object-cover md:row-span-5"/>
+        <img src="images/800.jpeg" alt=""   class="md:w-full md:h-full md:object-cover md:row-span-4"/>
+        <img src="images/400.jpeg" alt=""   class="md:row-start-2 md:w-full md:h-full md:object-cover"/>
+        <img  src="images/2476.jpeg" alt="" class="md:row-start-4 md:w-full md:h-full md:object-cover" />
+        <img  src="images/439.jpeg" alt=""   class="md:col-start-3 md:w-full md:h-full md:object-cover"/>
+        <img  src="images/140.jpeg" alt="" class="md:row-start-5 md:w-full md:h-full md:object-cover" />
       </section>
 
       <!-- 6ème section -->
 
-      <section class="flex flex-col p-4">
-        <img src="images/logo-sample-01.jpg" alt="" />
-        <img src="images/logo-sample-02.jpg" alt="" />
-        <img src="images/logo-sample-03.png" alt="" />
-        <img src="images/logo-sample-04.jpg" alt="" />
-        <img src="images/logo-sample-05.jpg" alt="" />
-        <img src="images/logo-sample-06.png" alt="" class="w-[80%]" />
+      <section class="flex flex-col p-4 md:flex items-center">
+        <img src="images/logo-sample-01.jpg" alt="" class="md:w-[50%] " />
+        <img src="images/logo-sample-02.jpg" alt="" class="md:w-[50%]" />
+        <img src="images/logo-sample-03.png" alt="" class="md:w-[50%]" />
+        <img src="images/logo-sample-04.jpg" alt="" class="md:w-[50%]"  />
+        <img src="images/logo-sample-05.jpg" alt="" class="md:w-[50%]"  />
+        <img src="images/logo-sample-06.png" alt="" class="md:w-[30%] md:mr-[350px]" />
       </section>
+
+    
 
       <!-- 7ème section -->
 
