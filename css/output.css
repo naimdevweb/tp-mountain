@@ -1024,6 +1024,10 @@ video {
     grid-row: span 6 / span 6;
   }
 
+  .md\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
   .md\:row-start-2 {
     grid-row-start: 2;
   }
@@ -1088,6 +1092,10 @@ video {
     gap: 0.5rem;
   }
 
+  .md\:gap-1 {
+    gap: 0.25rem;
+  }
+
   .md\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
@@ -1113,6 +1121,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .lg\:row-span-3 {
     grid-row: span 3 / span 3;
   }
@@ -1135,6 +1147,10 @@ video {
 
   .lg\:row-start-2 {
     grid-row-start: 2;
+  }
+
+  .lg\:row-start-1 {
+    grid-row-start: 1;
   }
 
   .lg\:ml-\[400px\] {
@@ -1195,6 +1211,10 @@ video {
 
   .lg\:gap-2 {
     gap: 0.5rem;
+  }
+
+  .lg\:gap-1 {
+    gap: 0.25rem;
   }
 
   .lg\:p-9 {
